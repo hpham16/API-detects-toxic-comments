@@ -1,6 +1,11 @@
 # API-detects-toxic-comments
 Đây là mô hình mình sử dụng tập dữ liệu do bản thân tự lấy từ tiktok và facebook từ các bài viết có nội dung tiêu cực của người dùng Việt Nam. Từ đó mình xử lý dữ liệu và đưa vào mô hình.
 
+
+Cách mình xử lý dữ liệu
+
+![image](https://github.com/hpham16/API-detects-toxic-comments/assets/113089981/413f8e19-1b0c-4441-bcb1-ca7f3f72b90a)
+
 Mô hình mình sử dụng là PhoBERT_SVM mô hình đạt độ chính xác khoảng 90.83% trong việc nhận diện các bình luận. Tiêu cực, Tích cực, Bình thường.
 
 Dưới đây là mô tả về cách train mô hình của mình.
